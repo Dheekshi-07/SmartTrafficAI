@@ -1,0 +1,3 @@
+scenario,travel_time_sec,waiting_time_sec,time_loss_sec,route_length_m,junctions
+Without Green Corridor,99,33,45.02,793.90,3
+AI Green Corridor,69,0,14.49,793.90,3
