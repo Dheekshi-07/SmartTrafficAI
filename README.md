@@ -35,46 +35,6 @@ A student-scale intelligent transportation prototype that transforms traffic dat
 
 ---
 
-## 📑 Table of Contents
-
-1. [Project Summary](#-project-summary)
-2. [Problem Statement](#-problem-statement)
-3. [Proposed Solution](#-proposed-solution)
-4. [Objectives](#-objectives)
-5. [Design Thinking Workflow](#-design-thinking-workflow)
-6. [System Architecture](#-system-architecture)
-7. [Technology Stack](#-technology-stack)
-8. [Why These Technologies?](#-why-these-technologies)
-9. [Dataset](#-dataset)
-10. [Data Pipeline](#-data-pipeline)
-11. [Machine Learning](#-machine-learning)
-12. [SUMO Simulation](#-sumo-simulation)
-13. [Fixed vs Adaptive Results](#-fixed-vs-adaptive-results)
-14. [Emergency Vehicle Priority](#-emergency-vehicle-priority)
-15. [Multi-Junction Green Corridor](#-multi-junction-emergency-green-corridor)
-16. [Green Corridor Results](#-green-corridor-experiment-results)
-17. [Backend (FastAPI)](#-backend-fastapi)
-18. [Frontend Dashboard (React)](#-frontend-dashboard-react)
-19. [Arduino Hardware Prototype](#-arduino-hardware-prototype)
-20. [Python Serial Bridge](#-python-serial-bridge)
-21. [SUMO → Arduino Integration](#-sumo--arduino-integration)
-22. [Hardware Status](#-hardware-status)
-23. [Repository Structure](#-repository-structure)
-24. [Installation](#-installation)
-25. [Running the Project](#-running-the-project)
-26. [Experimental Methodology](#-experimental-methodology)
-27. [Engineering Decisions](#-engineering-decisions)
-28. [Responsible AI & Safety](#-responsible-ai--safety)
-29. [Limitations](#-limitations)
-30. [Future Scope](#-future-scope)
-31. [Evidence / Screenshots](#-evidence--screenshots)
-32. [Implementation Status](#-implementation-status)
-33. [Key Achievements](#-key-achievements)
-34. [Evaluation Summary](#-evaluation-summary)
-35. [Conclusion](#-conclusion)
-
----
-
 ## 🧭 Project Summary
 
 **SmartTrafficAI** is an AI-assisted intelligent traffic-management prototype that combines real-world traffic observation, public traffic data, machine learning, microscopic traffic simulation, and physical hardware prototyping into a single, coherent mobility system.
