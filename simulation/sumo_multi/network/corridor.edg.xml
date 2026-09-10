@@ -1,0 +1,34 @@
+<edges>
+    <!-- Main corridor: West to Hospital -->
+    <edge id="W_J1" from="W" to="J1" numLanes="1" speed="13.9"/>
+    <edge id="J1_J2" from="J1" to="J2" numLanes="1" speed="13.9"/>
+    <edge id="J2_J3" from="J2" to="J3" numLanes="1" speed="13.9"/>
+    <edge id="J3_HOSPITAL" from="J3" to="HOSPITAL" numLanes="1" speed="13.9"/>
+
+    <!-- Reverse corridor -->
+    <edge id="HOSPITAL_J3" from="HOSPITAL" to="J3" numLanes="1" speed="13.9"/>
+    <edge id="J3_J2" from="J3" to="J2" numLanes="1" speed="13.9"/>
+    <edge id="J2_J1" from="J2" to="J1" numLanes="1" speed="13.9"/>
+    <edge id="J1_W" from="J1" to="W" numLanes="1" speed="13.9"/>
+
+    <!-- J1 vertical roads -->
+    <edge id="J1_N_J1" from="J1_N" to="J1" numLanes="1" speed="13.9"/>
+    <edge id="J1_J1_N" from="J1" to="J1_N" numLanes="1" speed="13.9"/>
+
+    <edge id="J1_S_J1" from="J1_S" to="J1" numLanes="1" speed="13.9"/>
+    <edge id="J1_J1_S" from="J1" to="J1_S" numLanes="1" speed="13.9"/>
+
+    <!-- J2 vertical roads -->
+    <edge id="J2_N_J2" from="J2_N" to="J2" numLanes="1" speed="13.9"/>
+    <edge id="J2_J2_N" from="J2" to="J2_N" numLanes="1" speed="13.9"/>
+
+    <edge id="J2_S_J2" from="J2_S" to="J2" numLanes="1" speed="13.9"/>
+    <edge id="J2_J2_S" from="J2" to="J2_S" numLanes="1" speed="13.9"/>
+
+    <!-- J3 vertical roads -->
+    <edge id="J3_N_J3" from="J3_N" to="J3" numLanes="1" speed="13.9"/>
+    <edge id="J3_J3_N" from="J3" to="J3_N" numLanes="1" speed="13.9"/>
+
+    <edge id="J3_S_J3" from="J3_S" to="J3" numLanes="1" speed="13.9"/>
+    <edge id="J3_J3_S" from="J3" to="J3_S" numLanes="1" speed="13.9"/>
+</edges>

@@ -1,0 +1,7 @@
+Column,Data Type,Unit,Allowed Values,Description
+Time,String (HH:MM:SS),24-hour clock,00:00:00–23:59:59,Start timestamp of the aggregation interval
+Direction,String,N/A,"UP, DOWN, LEFT, RIGHT",Direction of vehicle movement through the junction
+car,Integer,vehicle count,>= 0,Number of cars detected and counted in the interval/direction
+motorbike,Integer,vehicle count,>= 0,Number of motorbikes/two-wheelers detected and counted in the interval/direction
+bus,Integer,vehicle count,>= 0,Number of buses detected and counted in the interval/direction
+truck,Integer,vehicle count,>= 0,Number of trucks detected and counted in the interval/direction

@@ -1,0 +1,22 @@
+<nodes>
+    <!-- Main corridor -->
+    <node id="W" x="-300" y="0" type="priority"/>
+
+    <node id="J1" x="-100" y="0" type="traffic_light"/>
+    <node id="J2" x="100" y="0" type="traffic_light"/>
+    <node id="J3" x="300" y="0" type="traffic_light"/>
+
+    <node id="HOSPITAL" x="500" y="0" type="priority"/>
+
+    <!-- J1 side roads -->
+    <node id="J1_N" x="-100" y="150" type="priority"/>
+    <node id="J1_S" x="-100" y="-150" type="priority"/>
+
+    <!-- J2 side roads -->
+    <node id="J2_N" x="100" y="150" type="priority"/>
+    <node id="J2_S" x="100" y="-150" type="priority"/>
+
+    <!-- J3 side roads -->
+    <node id="J3_N" x="300" y="150" type="priority"/>
+    <node id="J3_S" x="300" y="-150" type="priority"/>
+</nodes>

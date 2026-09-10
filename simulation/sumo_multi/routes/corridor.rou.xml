@@ -1,0 +1,133 @@
+<routes>
+    <!-- =========================
+         VEHICLE TYPES
+    ========================== -->
+
+    <vType id="car"
+           accel="2.6"
+           decel="4.5"
+           sigma="0.5"
+           length="5"
+           maxSpeed="13.9"/>
+
+    <vType id="ambulance"
+           accel="3.0"
+           decel="5.0"
+           sigma="0"
+           length="6"
+           maxSpeed="18.0"
+           guiShape="emergency"/>
+
+    <!-- =========================
+         MAIN CORRIDOR ROUTES
+    ========================== -->
+
+    <!-- West to Hospital -->
+    <route id="west_to_hospital"
+           edges="W_J1 J1_J2 J2_J3 J3_HOSPITAL"/>
+
+    <!-- Hospital to West -->
+    <route id="hospital_to_west"
+           edges="HOSPITAL_J3 J3_J2 J2_J1 J1_W"/>
+
+    <!-- =========================
+         SIDE ROAD ROUTES - J1
+    ========================== -->
+
+    <route id="j1_north_to_south"
+           edges="J1_N_J1 J1_J1_S"/>
+
+    <route id="j1_south_to_north"
+           edges="J1_S_J1 J1_J1_N"/>
+
+    <!-- =========================
+         SIDE ROAD ROUTES - J2
+    ========================== -->
+
+    <route id="j2_north_to_south"
+           edges="J2_N_J2 J2_J2_S"/>
+
+    <route id="j2_south_to_north"
+           edges="J2_S_J2 J2_J2_N"/>
+
+    <!-- =========================
+         SIDE ROAD ROUTES - J3
+    ========================== -->
+
+    <route id="j3_north_to_south"
+           edges="J3_N_J3 J3_J3_S"/>
+
+    <route id="j3_south_to_north"
+           edges="J3_S_J3 J3_J3_N"/>
+
+    <!-- =========================
+         NORMAL TRAFFIC FLOWS
+    ========================== -->
+
+    <flow id="corridor_west_flow"
+          type="car"
+          route="west_to_hospital"
+          begin="0"
+          end="600"
+          vehsPerHour="500"/>
+
+    <flow id="corridor_east_flow"
+          type="car"
+          route="hospital_to_west"
+          begin="0"
+          end="600"
+          vehsPerHour="350"/>
+
+    <flow id="j1_vertical_flow"
+          type="car"
+          route="j1_north_to_south"
+          begin="0"
+          end="600"
+          vehsPerHour="250"/>
+
+    <flow id="j1_reverse_flow"
+          type="car"
+          route="j1_south_to_north"
+          begin="0"
+          end="600"
+          vehsPerHour="200"/>
+
+    <flow id="j2_vertical_flow"
+          type="car"
+          route="j2_north_to_south"
+          begin="0"
+          end="600"
+          vehsPerHour="300"/>
+
+    <flow id="j2_reverse_flow"
+          type="car"
+          route="j2_south_to_north"
+          begin="0"
+          end="600"
+          vehsPerHour="230"/>
+
+    <flow id="j3_vertical_flow"
+          type="car"
+          route="j3_north_to_south"
+          begin="0"
+          end="600"
+          vehsPerHour="250"/>
+
+    <flow id="j3_reverse_flow"
+          type="car"
+          route="j3_south_to_north"
+          begin="0"
+          end="600"
+          vehsPerHour="200"/>
+
+    <!-- =========================
+         EMERGENCY VEHICLE
+    ========================== -->
+
+    <vehicle id="AMB_001"
+             type="ambulance"
+             route="west_to_hospital"
+             depart="180"
+             departLane="best"
+             departSpeed="max"/>
+</routes>

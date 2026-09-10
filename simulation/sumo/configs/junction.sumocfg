@@ -1,0 +1,17 @@
+<configuration>
+
+    <input>
+        <net-file value="../network/junction.net.xml"/>
+        <route-files value="../routes/traffic.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="900"/>
+    </time>
+
+    <output>
+        <tripinfo-output value="../outputs/tripinfo.xml"/>
+    </output>
+
+</configuration>

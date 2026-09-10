@@ -1,0 +1,18 @@
+<configuration>
+
+    <input>
+        <net-file value="../network/corridor.net.xml"/>
+        <route-files value="../routes/corridor.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+        <step-length value="1"/>
+    </time>
+
+    <output>
+        <tripinfo-output value="../outputs/corridor_tripinfo.xml"/>
+    </output>
+
+</configuration>

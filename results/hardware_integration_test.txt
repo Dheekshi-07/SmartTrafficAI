@@ -1,0 +1,168 @@
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 1ms, vehicles TOT 8 ACT 8 BUF 0)                       Step #100.00 (0ms ?*RT. ?UPS, TraCI: 0ms, vehicles TOT 66 ACT 47 BUF 0)                   Step #200.00 (0ms ?*RT. ?UPS, TraCI: 0ms, vehicles TOT 131 ACT 42 BUF 0)                  Step #300.00 (0ms ?*RT. ?UPS, TraCI: 0ms, vehicles TOT 195 ACT 34 BUF 0)                  Step #400.00 (0ms ?*RT. ?UPS, TraCI: 0ms, vehicles TOT 258 ACT 43 BUF 0)                  Step #500.00 (0ms ?*RT. ?UPS, TraCI: 0ms, vehicles TOT 320 ACT 48 BUF 0)                  Step #600.00 (0ms ?*RT. ?UPS, TraCI: 1ms, vehicles TOT 385 ACT 51 BUF 0)                  Step #700.00 (0ms ?*RT. ?UPS, TraCI: 0ms, vehicles TOT 385 ACT 2 BUF 0)                   Step #745.00 (0ms ?*RT. ?UPS, TraCI: 0ms, vehicles TOT 385 ACT 0 BUF 0)                   
+============================================================
+SmartTrafficAI - Multi-Junction Green Corridor
+============================================================
+[HARDWARE] Arduino not connected.
+[HARDWARE] Running without physical signal output.
+[SYSTEM] Hardware unavailable - SUMO simulation will continue normally.
+
+ Retrying in 1 seconds
+J1 corridor green phase: 2
+J2 corridor green phase: 2
+J3 corridor green phase: 2
+
+[181s] Ambulance detected: AMB_001
+Green corridor activated.
+
+[181s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[SIMULATION ONLY] Hardware command: EMERGENCY_GREEN
+    Hardware command mapped to J1: EMERGENCY_GREEN
+[182s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[183s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[184s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[185s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[186s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[187s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[188s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[189s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[190s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[191s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[192s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[193s] AMB_001 current edge: W_J1
+    Priority GREEN activated at J1
+[194s] AMB_001 current edge: :J1_13
+[195s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[SIMULATION ONLY] Hardware command: EMERGENCY_GREEN
+    Hardware command mapped to J2: EMERGENCY_GREEN
+[196s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[197s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[198s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[199s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[200s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[201s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[202s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[203s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[204s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[205s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[206s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[207s] AMB_001 current edge: J1_J2
+    Priority GREEN activated at J2
+[208s] AMB_001 current edge: :J2_13
+[209s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[SIMULATION ONLY] Hardware command: EMERGENCY_GREEN
+    Hardware command mapped to J3: EMERGENCY_GREEN
+[210s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[211s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[212s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[213s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[214s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[215s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[216s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[217s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[218s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[219s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[220s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[221s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[222s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[223s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[224s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[225s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[226s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[227s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[228s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[229s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[230s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[231s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[232s] AMB_001 current edge: J2_J3
+    Priority GREEN activated at J3
+[233s] AMB_001 current edge: :J3_13
+[234s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[SIMULATION ONLY] Hardware command: GREEN
+    Hardware signal returned to normal GREEN state
+[235s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[236s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[237s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[238s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[239s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[240s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[241s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[242s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[243s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[244s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[245s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[246s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[247s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[248s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+[249s] AMB_001 current edge: J3_HOSPITAL
+    AMB_001 cleared J3 and is heading to hospital
+
+[250s] Ambulance completed emergency corridor.
+Normal SUMO traffic-light control restored.
+[SIMULATION ONLY] Hardware command: RED
+Hardware signal returned to safe RED state.
+
+============================================================
+Green corridor simulation completed.
+============================================================

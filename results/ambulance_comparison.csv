@@ -1,0 +1,3 @@
+mode,vehicle_id,depart,arrival,travel_time,waiting_time,time_loss,route_length
+Without Priority,AMB_001,300.0,329.0,29.0,7.0,14.5,194.4
+With Priority,AMB_001,300.0,318.0,18.0,0.0,3.62,194.4

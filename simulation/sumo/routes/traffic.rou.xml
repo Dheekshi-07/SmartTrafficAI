@@ -1,0 +1,59 @@
+<routes>
+
+    <vType id="car"
+           accel="2.6"
+           decel="4.5"
+           sigma="0.5"
+           length="5"
+           maxSpeed="13.9"/>
+
+    <!-- Emergency vehicle -->
+    <vType id="ambulance"
+           vClass="emergency"
+           accel="3.5"
+           decel="5.0"
+           sigma="0.2"
+           length="5.5"
+           maxSpeed="18.0"
+           guiShape="emergency"/>
+
+    <route id="north_south" edges="N_J1 J1_S"/>
+    <route id="south_north" edges="S_J1 J1_N"/>
+    <route id="east_west" edges="E_J1 J1_W"/>
+    <route id="west_east" edges="W_J1 J1_E"/>
+
+    <flow id="flow_ns"
+          type="car"
+          route="north_south"
+          begin="0"
+          end="900"
+          vehsPerHour="600"/>
+
+    <flow id="flow_sn"
+          type="car"
+          route="south_north"
+          begin="0"
+          end="900"
+          vehsPerHour="450"/>
+
+    <flow id="flow_ew"
+          type="car"
+          route="east_west"
+          begin="0"
+          end="900"
+          vehsPerHour="250"/>
+
+    <flow id="flow_we"
+          type="car"
+          route="west_east"
+          begin="0"
+          end="900"
+          vehsPerHour="300"/>
+
+    <!-- Ambulance enters from East at 300 seconds -->
+    <vehicle id="AMB_001"
+             type="ambulance"
+             route="east_west"
+             depart="300"/>
+
+</routes>

@@ -1,0 +1,1 @@
+timestamp,location,junction_id,lane,car_count,bike_count,bus_count,truck_count,total_vehicles,queue_length,avg_waiting_time,traffic_density,signal_state,emergency_vehicle,data_source
