@@ -67,6 +67,19 @@ def test_conflicting_emergency_arbitration(tmp_path):
     assert "AMB_001" in manager.active_requests
     assert manager.active_requests["AMB_001"].status == EmergencyStatus.ACTIVE
 
+def test_non_conflicting_different_junctions(tmp_path):
+    log_file = tmp_path / "test_log.csv"
+    manager = EmergencyPriorityManager(log_filepath=log_file)
+    
+    # AMB_001 at J1 and AMB_002 at J2 can both be ACTIVE simultaneously
+    req1 = manager.request_priority("AMB_001", "J1", "EW", EmergencySeverity.CRITICAL, 100, 10, 0.0)
+    req2 = manager.request_priority("AMB_002", "J2", "NS", EmergencySeverity.URGENT, 120, 12, 1.0)
+    
+    assert req1.status == EmergencyStatus.ACTIVE
+    assert req2.status == EmergencyStatus.ACTIVE
+    assert len(manager.active_requests) == 2
+    assert len(manager.queued_requests) == 0
+
 def test_emergency_cancellation(tmp_path):
     log_file = tmp_path / "test_log.csv"
     manager = EmergencyPriorityManager(log_filepath=log_file)

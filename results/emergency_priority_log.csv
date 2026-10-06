@@ -4,3 +4,21 @@ timestamp,ambulance_id,junction,priority,status,action,reason
 12.0,AMB_002,J1,361.45,ACTIVE,ACTIVATE_PREEMPTIVE,Granted priority over AMB_001 due to higher score
 25.0,AMB_002,J1,361.45,COMPLETED,COMPLETE,Vehicle cleared intersection
 25.0,AMB_001,J1,285.0,ACTIVE,PROMOTE_FROM_QUEUE,Active conflict resolved; queued emergency activated
+102.0,AMB_001,J1,280.93,ACTIVE,ACTIVATE,No active conflict found; green corridor corridor granted
+116.0,AMB_002,J2,253.94,ACTIVE,ACTIVATE,No active conflict found; green corridor corridor granted
+118.0,AMB_001,J2,299.81,ACTIVE,UPDATE,Updated location and metrics for active emergency
+119.0,AMB_001,J2,299.75,ACTIVE,UPDATE,Updated location and metrics for active emergency
+120.0,AMB_001,J2,299.69,ACTIVE,UPDATE,Updated location and metrics for active emergency
+121.0,AMB_001,J2,299.63,ACTIVE,UPDATE,Updated location and metrics for active emergency
+122.0,AMB_001,J2,299.58,ACTIVE,UPDATE,Updated location and metrics for active emergency
+123.0,AMB_001,J2,299.52,ACTIVE,UPDATE,Updated location and metrics for active emergency
+124.0,AMB_001,J2,299.46,ACTIVE,UPDATE,Updated location and metrics for active emergency
+125.0,AMB_001,J2,299.41,ACTIVE,UPDATE,Updated location and metrics for active emergency
+126.0,AMB_001,J2,299.35,ACTIVE,UPDATE,Updated location and metrics for active emergency
+127.0,AMB_001,J2,299.3,ACTIVE,UPDATE,Updated location and metrics for active emergency
+128.0,AMB_001,J2,299.25,ACTIVE,UPDATE,Updated location and metrics for active emergency
+129.0,AMB_001,J2,299.19,ACTIVE,UPDATE,Updated location and metrics for active emergency
+130.0,AMB_001,J2,299.14,ACTIVE,UPDATE,Updated location and metrics for active emergency
+131.0,AMB_001,J2,299.09,ACTIVE,UPDATE,Updated location and metrics for active emergency
+134.0,AMB_001,J2,299.09,COMPLETED,COMPLETE,AMB_001 cleared J2
+139.0,AMB_002,J2,253.94,COMPLETED,COMPLETE,AMB_002 cleared J2
