@@ -1,3 +1,6 @@
+import os
+if "SUMO_HOME" not in os.environ and os.path.exists("/Library/Frameworks/EclipseSUMO.framework/Versions/1.27.1/EclipseSUMO"):
+    os.environ["SUMO_HOME"] = "/Library/Frameworks/EclipseSUMO.framework/Versions/1.27.1/EclipseSUMO"
 import traci
 import csv
 from pathlib import Path

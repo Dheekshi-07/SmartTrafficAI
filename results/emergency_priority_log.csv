@@ -1,0 +1,6 @@
+timestamp,ambulance_id,junction,priority,status,action,reason
+10.0,AMB_001,J1,285.0,ACTIVE,ACTIVATE,No active conflict found; green corridor corridor granted
+12.0,AMB_001,J1,285.0,QUEUED,PREEMPT_TO_QUEUE,Preempted by higher priority request AMB_002 (361.45 vs 285.0)
+12.0,AMB_002,J1,361.45,ACTIVE,ACTIVATE_PREEMPTIVE,Granted priority over AMB_001 due to higher score
+25.0,AMB_002,J1,361.45,COMPLETED,COMPLETE,Vehicle cleared intersection
+25.0,AMB_001,J1,285.0,ACTIVE,PROMOTE_FROM_QUEUE,Active conflict resolved; queued emergency activated

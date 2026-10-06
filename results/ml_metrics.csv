@@ -1,0 +1,2 @@
+model,features,target,test_samples,mae,rmse,r2_score,baseline_mae,baseline_rmse,mae_improvement_pct,rmse_improvement_pct
+Random Forest Regressor,"hour, minute, total_vehicles, traffic_pressure, lag_1, lag_2, lag_3, rolling_mean_3",target_next_5min,1580,7.47,13.9,0.9364,8.69,16.32,14.03,14.8

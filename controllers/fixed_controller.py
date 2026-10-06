@@ -1,3 +1,6 @@
+import os
+if "SUMO_HOME" not in os.environ and os.path.exists("/Library/Frameworks/EclipseSUMO.framework/Versions/1.27.1/EclipseSUMO"):
+    os.environ["SUMO_HOME"] = "/Library/Frameworks/EclipseSUMO.framework/Versions/1.27.1/EclipseSUMO"
 import traci
 import csv
 from pathlib import Path
@@ -61,17 +64,10 @@ def run():
         })
 
         arrived_ids = traci.simulation.getArrivedIDList()
-
         for vehicle_id in arrived_ids:
-            try:
-                travel_time = traci.vehicle.getAccumulatedWaitingTime(vehicle_id)
-            except:
-                travel_time = None
-
             arrived_vehicle_data.append({
                 "vehicle_id": vehicle_id,
-                "arrival_step": step,
-                "waiting_time": travel_time
+                "arrival_step": step
             })
 
         if step % 50 == 0:

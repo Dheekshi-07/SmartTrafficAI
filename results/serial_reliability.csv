@@ -1,0 +1,2 @@
+status,port,commands_sent,acks_received,packet_loss_pct,avg_latency_ms,min_latency_ms,max_latency_ms,p95_latency_ms,notes
+PHYSICAL_HARDWARE_PENDING,None,0,0,N/A,N/A,N/A,N/A,N/A,Hardware validation requires physical Arduino execution. Test harness verified.
